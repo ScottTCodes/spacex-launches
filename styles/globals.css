@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "DDin";
+  src: url('../public/D-DIN.woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DDin";
+  src: url('../public/D-DIN-Bold.woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: DDin, Arial, Verdana, sans-serif;
+  background: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
